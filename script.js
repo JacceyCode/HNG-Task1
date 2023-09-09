@@ -21,5 +21,5 @@ setInterval(utcTime, 1000);
 function utcTime() {
   const date = new Date();
   const utcTimeMs = date.getUTCMilliseconds();
-  utc.innerHTML = utcTimeMs;
+  utc.innerHTML = `${utcTimeMs} milliseconds`;
 }

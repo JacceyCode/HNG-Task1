@@ -8,32 +8,28 @@
   </head>
   <body>
     <main>
-      <h1 data-testid="slackUserName">JACOB OLUWASESAN ADEBAYO (JacceyCode)</h1>
       <section>
+        <h1 data-testid="slackUserName">JacceyCode</h1>
         <img
-          id="img"
           src="./face.png"
           alt="JacceyCode"
           data-testid="slackDisplayImage"
         />
       </section>
-      <section>
-        <p>
-          Today is <span id="day" data-testid="currentDayOfTheWeek"></span>.
-        </p>
-        <p>
-          The time says:
-          <span id="utc" data-testid="currentUTCTime"></span> in milliseconds.
-        </p>
-        <p>My track is: <span data-testid="myTrack">Frontend</span>.</p>
+      <section id="info">
+        <p id="day" data-testid="currentDayOfTheWeek"></p>
+        <p id="utc" data-testid="currentUTCTime"></p>
+        <p data-testid="myTrack">#Frontend Track</p>
         <a
           id="git_link"
           href="https://github.com/JacceyCode/HNG-Task1"
           target="_blank"
-          data-testid="“githubURL”"
+          data-testid="githubURL"
           >You can check my source code here
-          <img id="icon" src="./github.svg" /> .</a
-        >
+          <span>
+            <img id="icon" src="./github.svg" />
+          </span>
+        </a>
       </section>
     </main>
     <script src="script.js"></script>
